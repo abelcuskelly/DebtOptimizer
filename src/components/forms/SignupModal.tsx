@@ -23,6 +23,8 @@ export function SignupModal({ isOpen, onClose }: SignupModalProps) {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [submitError, setSubmitError] = useState<string | null>(null);
 
+  console.log("SignupModal render - isOpen:", isOpen);
+
   const {
     register,
     handleSubmit,

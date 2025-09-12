@@ -7,11 +7,16 @@ import { SignupModal } from "@/components/forms/SignupModal";
 export function EmailSignupForm() {
   const [isModalOpen, setIsModalOpen] = useState(false);
 
+  const handleButtonClick = () => {
+    console.log("Button clicked! Opening modal...");
+    setIsModalOpen(true);
+  };
+
   return (
     <>
       <div className="text-center space-y-4">
         <Button 
-          onClick={() => setIsModalOpen(true)}
+          onClick={handleButtonClick}
           className="w-full sm:w-auto"
         >
           Get My Free Debt Analysis
@@ -23,7 +28,10 @@ export function EmailSignupForm() {
 
       <SignupModal 
         isOpen={isModalOpen}
-        onClose={() => setIsModalOpen(false)}
+        onClose={() => {
+          console.log("Closing modal...");
+          setIsModalOpen(false);
+        }}
       />
     </>
   );
