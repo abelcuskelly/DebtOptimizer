@@ -1,0 +1,892 @@
+0 verbose cli /usr/local/bin/node /usr/local/bin/npm
+1 info using npm@10.9.2
+2 info using node@v22.15.1
+3 silly config load:file:/usr/local/lib/node_modules/npm/npmrc
+4 silly config load:file:/Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/.npmrc
+5 silly config load:file:/Users/abel/.npmrc
+6 silly config load:file:/usr/local/etc/npmrc
+7 verbose title npm uninstall gh-pages
+8 verbose argv "uninstall" "gh-pages" "--legacy-peer-deps"
+9 verbose logfile logs-max:10 dir:/Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/.npm-cache/_logs/2025-09-12T19_23_44_267Z-
+10 verbose logfile /Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/.npm-cache/_logs/2025-09-12T19_23_44_267Z-debug-0.log
+11 silly logfile start cleaning logs, removing 1 files
+12 silly packumentCache heap:4345298944 maxSize:1086324736 maxEntrySize:543162368
+13 silly logfile done cleaning log files
+14 silly idealTree buildDeps
+15 silly reify mark retired [
+15 silly reify   '/Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/@isaacs/fs-minipass'
+15 silly reify ]
+16 silly reify mark retired [
+16 silly reify   '/Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/@jridgewell/remapping'
+16 silly reify ]
+17 silly reify mark retired [
+17 silly reify   '/Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/@tailwindcss/node'
+17 silly reify ]
+18 silly reify mark retired [
+18 silly reify   '/Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/@tailwindcss/oxide'
+18 silly reify ]
+19 silly reify mark retired [
+19 silly reify   '/Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/@tailwindcss/oxide-darwin-arm64'
+19 silly reify ]
+20 silly reify mark retired [
+20 silly reify   '/Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/@tailwindcss/postcss'
+20 silly reify ]
+21 silly reify mark retired [
+21 silly reify   '/Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/array-union'
+21 silly reify ]
+22 silly reify mark retired [
+22 silly reify   '/Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/async'
+22 silly reify ]
+23 silly reify mark retired [
+23 silly reify   '/Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/chownr'
+23 silly reify ]
+24 silly reify mark retired [
+24 silly reify   '/Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/commander'
+24 silly reify ]
+25 silly reify mark retired [
+25 silly reify   '/Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/commondir'
+25 silly reify ]
+26 silly reify mark retired [
+26 silly reify   '/Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/dir-glob'
+26 silly reify ]
+27 silly reify mark retired [
+27 silly reify   '/Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/email-addresses'
+27 silly reify ]
+28 silly reify mark retired [
+28 silly reify   '/Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/enhanced-resolve'
+28 silly reify ]
+29 silly reify mark retired [
+29 silly reify   '/Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/filename-reserved-regex'
+29 silly reify ]
+30 silly reify mark retired [
+30 silly reify   '/Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/filenamify'
+30 silly reify ]
+31 silly reify mark retired [
+31 silly reify   '/Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/find-cache-dir'
+31 silly reify ]
+32 silly reify mark retired [
+32 silly reify   '/Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/fs-extra'
+32 silly reify ]
+33 silly reify mark retired [
+33 silly reify   '/Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/gh-pages',
+33 silly reify   '/Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/.bin/gh-pages',
+33 silly reify   '/Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/.bin/gh-pages-clean'
+33 silly reify ]
+34 silly reify mark retired [
+34 silly reify   '/Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/globby'
+34 silly reify ]
+35 silly reify mark retired [
+35 silly reify   '/Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/graceful-fs'
+35 silly reify ]
+36 silly reify mark retired [
+36 silly reify   '/Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/jiti',
+36 silly reify   '/Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/.bin/jiti'
+36 silly reify ]
+37 silly reify mark retired [
+37 silly reify   '/Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/jsonfile'
+37 silly reify ]
+38 silly reify mark retired [
+38 silly reify   '/Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/lightningcss'
+38 silly reify ]
+39 silly reify mark retired [
+39 silly reify   '/Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/lightningcss-darwin-arm64'
+39 silly reify ]
+40 silly reify mark retired [
+40 silly reify   '/Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/magic-string'
+40 silly reify ]
+41 silly reify mark retired [
+41 silly reify   '/Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/make-dir'
+41 silly reify ]
+42 silly reify mark retired [
+42 silly reify   '/Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/minizlib'
+42 silly reify ]
+43 silly reify mark retired [
+43 silly reify   '/Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/mkdirp',
+43 silly reify   '/Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/.bin/mkdirp'
+43 silly reify ]
+44 silly reify mark retired [
+44 silly reify   '/Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/p-try'
+44 silly reify ]
+45 silly reify mark retired [
+45 silly reify   '/Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/path-type'
+45 silly reify ]
+46 silly reify mark retired [
+46 silly reify   '/Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/pkg-dir'
+46 silly reify ]
+47 silly reify mark retired [
+47 silly reify   '/Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/slash'
+47 silly reify ]
+48 silly reify mark retired [
+48 silly reify   '/Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/strip-outer'
+48 silly reify ]
+49 silly reify mark retired [
+49 silly reify   '/Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/tapable'
+49 silly reify ]
+50 silly reify mark retired [
+50 silly reify   '/Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/tar'
+50 silly reify ]
+51 silly reify mark retired [
+51 silly reify   '/Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/trim-repeated'
+51 silly reify ]
+52 silly reify mark retired [
+52 silly reify   '/Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/universalify'
+52 silly reify ]
+53 silly reify mark retired [
+53 silly reify   '/Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/yallist'
+53 silly reify ]
+54 silly reify moves {
+54 silly reify   '/Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/@isaacs/fs-minipass': '/Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/@isaacs/.fs-minipass-oiePnJsD',
+54 silly reify   '/Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/@jridgewell/remapping': '/Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/@jridgewell/.remapping-WJPnzr6A',
+54 silly reify   '/Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/@tailwindcss/node': '/Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/@tailwindcss/.node-DiB7No5a',
+54 silly reify   '/Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/@tailwindcss/oxide': '/Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/@tailwindcss/.oxide-XAtyN7XB',
+54 silly reify   '/Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/@tailwindcss/oxide-darwin-arm64': '/Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/@tailwindcss/.oxide-darwin-arm64-JYYXzDi3',
+54 silly reify   '/Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/@tailwindcss/postcss': '/Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/@tailwindcss/.postcss-7URV7Mmm',
+54 silly reify   '/Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/array-union': '/Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/.array-union-1ZTzPHEw',
+54 silly reify   '/Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/async': '/Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/.async-TvDxwdMh',
+54 silly reify   '/Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/chownr': '/Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/.chownr-R4ouJ4Uw',
+54 silly reify   '/Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/commander': '/Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/.commander-obvjDeGZ',
+54 silly reify   '/Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/commondir': '/Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/.commondir-b13lSN5z',
+54 silly reify   '/Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/dir-glob': '/Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/.dir-glob-bg11tXor',
+54 silly reify   '/Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/email-addresses': '/Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/.email-addresses-8233XDqo',
+54 silly reify   '/Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/enhanced-resolve': '/Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/.enhanced-resolve-R7ecgJQG',
+54 silly reify   '/Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/filename-reserved-regex': '/Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/.filename-reserved-regex-9T0Jt9a9',
+54 silly reify   '/Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/filenamify': '/Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/.filenamify-CGKMRwGN',
+54 silly reify   '/Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/find-cache-dir': '/Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/.find-cache-dir-jhFwwD90',
+54 silly reify   '/Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/fs-extra': '/Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/.fs-extra-pVh90ln9',
+54 silly reify   '/Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/gh-pages': '/Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/.gh-pages-F1tfAe3w',
+54 silly reify   '/Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/.bin/gh-pages': '/Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/.bin/.gh-pages-WvXNXeHZ',
+54 silly reify   '/Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/.bin/gh-pages-clean': '/Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/.bin/.gh-pages-clean-UslL0YEH',
+54 silly reify   '/Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/globby': '/Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/.globby-aJZE17vs',
+54 silly reify   '/Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/graceful-fs': '/Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/.graceful-fs-7Lx6qWJY',
+54 silly reify   '/Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/jiti': '/Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/.jiti-x2iaOF8s',
+54 silly reify   '/Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/.bin/jiti': '/Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/.bin/.jiti-PbJAJ7HY',
+54 silly reify   '/Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/jsonfile': '/Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/.jsonfile-fdtfiabG',
+54 silly reify   '/Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/lightningcss': '/Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/.lightningcss-DFMVDpv2',
+54 silly reify   '/Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/lightningcss-darwin-arm64': '/Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/.lightningcss-darwin-arm64-IOzaqlkl',
+54 silly reify   '/Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/magic-string': '/Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/.magic-string-gvqDh1QY',
+54 silly reify   '/Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/make-dir': '/Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/.make-dir-VzjfD3ot',
+54 silly reify   '/Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/minizlib': '/Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/.minizlib-2kwmAvmj',
+54 silly reify   '/Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/mkdirp': '/Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/.mkdirp-i7Af2Xvs',
+54 silly reify   '/Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/.bin/mkdirp': '/Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/.bin/.mkdirp-HXvJT47o',
+54 silly reify   '/Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/p-try': '/Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/.p-try-I2d9fQhU',
+54 silly reify   '/Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/path-type': '/Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/.path-type-f6uBY13D',
+54 silly reify   '/Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/pkg-dir': '/Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/.pkg-dir-PYrSpE3D',
+54 silly reify   '/Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/slash': '/Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/.slash-b0CBpGb5',
+54 silly reify   '/Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/strip-outer': '/Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/.strip-outer-FNZxkn7F',
+54 silly reify   '/Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/tapable': '/Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/.tapable-TixAmvNA',
+54 silly reify   '/Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/tar': '/Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/.tar-poPagKkp',
+54 silly reify   '/Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/trim-repeated': '/Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/.trim-repeated-pdWT60VW',
+54 silly reify   '/Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/universalify': '/Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/.universalify-cG4KOena',
+54 silly reify   '/Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/yallist': '/Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/.yallist-V8wXOsTs'
+54 silly reify }
+55 silly audit bulk request {
+55 silly audit   '@alloc/quick-lru': [ '5.2.0' ],
+55 silly audit   '@emnapi/core': [ '1.5.0' ],
+55 silly audit   '@emnapi/runtime': [ '1.5.0' ],
+55 silly audit   '@emnapi/wasi-threads': [ '1.1.0' ],
+55 silly audit   '@eslint-community/eslint-utils': [ '4.9.0' ],
+55 silly audit   'eslint-visitor-keys': [ '3.4.3', '4.2.1' ],
+55 silly audit   '@eslint-community/regexpp': [ '4.12.1' ],
+55 silly audit   '@eslint/eslintrc': [ '3.3.1', '2.1.4' ],
+55 silly audit   '@eslint/js': [ '8.57.1' ],
+55 silly audit   '@headlessui/react': [ '1.7.19' ],
+55 silly audit   '@hookform/resolvers': [ '3.10.0' ],
+55 silly audit   '@humanwhocodes/config-array': [ '0.13.0' ],
+55 silly audit   '@humanwhocodes/module-importer': [ '1.0.1' ],
+55 silly audit   '@humanwhocodes/object-schema': [ '2.0.3' ],
+55 silly audit   '@img/sharp-darwin-arm64': [ '0.34.3' ],
+55 silly audit   '@img/sharp-darwin-x64': [ '0.34.3' ],
+55 silly audit   '@img/sharp-libvips-darwin-arm64': [ '1.2.0' ],
+55 silly audit   '@img/sharp-libvips-darwin-x64': [ '1.2.0' ],
+55 silly audit   '@img/sharp-libvips-linux-arm': [ '1.2.0' ],
+55 silly audit   '@img/sharp-libvips-linux-arm64': [ '1.2.0' ],
+55 silly audit   '@img/sharp-libvips-linux-ppc64': [ '1.2.0' ],
+55 silly audit   '@img/sharp-libvips-linux-s390x': [ '1.2.0' ],
+55 silly audit   '@img/sharp-libvips-linux-x64': [ '1.2.0' ],
+55 silly audit   '@img/sharp-libvips-linuxmusl-arm64': [ '1.2.0' ],
+55 silly audit   '@img/sharp-libvips-linuxmusl-x64': [ '1.2.0' ],
+55 silly audit   '@img/sharp-linux-arm': [ '0.34.3' ],
+55 silly audit   '@img/sharp-linux-arm64': [ '0.34.3' ],
+55 silly audit   '@img/sharp-linux-ppc64': [ '0.34.3' ],
+55 silly audit   '@img/sharp-linux-s390x': [ '0.34.3' ],
+55 silly audit   '@img/sharp-linux-x64': [ '0.34.3' ],
+55 silly audit   '@img/sharp-linuxmusl-arm64': [ '0.34.3' ],
+55 silly audit   '@img/sharp-linuxmusl-x64': [ '0.34.3' ],
+55 silly audit   '@img/sharp-wasm32': [ '0.34.3' ],
+55 silly audit   '@img/sharp-win32-arm64': [ '0.34.3' ],
+55 silly audit   '@img/sharp-win32-ia32': [ '0.34.3' ],
+55 silly audit   '@img/sharp-win32-x64': [ '0.34.3' ],
+55 silly audit   '@isaacs/cliui': [ '8.0.2' ],
+55 silly audit   'ansi-regex': [ '6.2.2', '5.0.1' ],
+55 silly audit   'strip-ansi': [ '7.1.2', '6.0.1' ],
+55 silly audit   '@jridgewell/gen-mapping': [ '0.3.13' ],
+55 silly audit   '@jridgewell/resolve-uri': [ '3.1.2' ],
+55 silly audit   '@jridgewell/sourcemap-codec': [ '1.5.5' ],
+55 silly audit   '@jridgewell/trace-mapping': [ '0.3.31' ],
+55 silly audit   '@napi-rs/wasm-runtime': [ '0.2.12' ],
+55 silly audit   '@next/env': [ '15.5.3' ],
+55 silly audit   '@next/eslint-plugin-next': [ '15.5.3' ],
+55 silly audit   '@next/swc-darwin-arm64': [ '15.5.3' ],
+55 silly audit   '@next/swc-darwin-x64': [ '15.5.3' ],
+55 silly audit   '@next/swc-linux-arm64-gnu': [ '15.5.3' ],
+55 silly audit   '@next/swc-linux-arm64-musl': [ '15.5.3' ],
+55 silly audit   '@next/swc-linux-x64-gnu': [ '15.5.3' ],
+55 silly audit   '@next/swc-linux-x64-musl': [ '15.5.3' ],
+55 silly audit   '@next/swc-win32-arm64-msvc': [ '15.5.3' ],
+55 silly audit   '@next/swc-win32-x64-msvc': [ '15.5.3' ],
+55 silly audit   '@nodelib/fs.scandir': [ '2.1.5' ],
+55 silly audit   '@nodelib/fs.stat': [ '2.0.5' ],
+55 silly audit   '@nodelib/fs.walk': [ '1.2.8' ],
+55 silly audit   '@nolyfill/is-core-module': [ '1.0.39' ],
+55 silly audit   '@pkgjs/parseargs': [ '0.11.0' ],
+55 silly audit   '@rtsao/scc': [ '1.1.0' ],
+55 silly audit   '@rushstack/eslint-patch': [ '1.12.0' ],
+55 silly audit   '@swc/helpers': [ '0.5.15' ],
+55 silly audit   tailwindcss: [ '3.4.17' ],
+55 silly audit   '@tanstack/react-virtual': [ '3.13.12' ],
+55 silly audit   '@tanstack/virtual-core': [ '3.13.12' ],
+55 silly audit   '@tybys/wasm-util': [ '0.10.1' ],
+55 silly audit   '@types/json5': [ '0.0.29' ],
+55 silly audit   '@types/node': [ '20.19.13' ],
+55 silly audit   '@types/prop-types': [ '15.7.15' ],
+55 silly audit   '@types/react': [ '18.3.24' ],
+55 silly audit   '@types/react-dom': [ '18.3.7' ],
+55 silly audit   '@typescript-eslint/eslint-plugin': [ '8.43.0' ],
+55 silly audit   ignore: [ '7.0.5', '5.3.2' ],
+55 silly audit   '@typescript-eslint/parser': [ '8.43.0' ],
+55 silly audit   '@typescript-eslint/project-service': [ '8.43.0' ],
+55 silly audit   '@typescript-eslint/scope-manager': [ '8.43.0' ],
+55 silly audit   '@typescript-eslint/tsconfig-utils': [ '8.43.0' ],
+55 silly audit   '@typescript-eslint/type-utils': [ '8.43.0' ],
+55 silly audit   '@typescript-eslint/types': [ '8.43.0' ],
+55 silly audit   '@typescript-eslint/typescript-estree': [ '8.43.0' ],
+55 silly audit   'brace-expansion': [ '2.0.2', '1.1.12' ],
+55 silly audit   'fast-glob': [ '3.3.3', '3.3.1' ],
+55 silly audit   'glob-parent': [ '5.1.2', '6.0.2' ],
+55 silly audit   minimatch: [ '9.0.5', '3.1.2' ],
+55 silly audit   '@typescript-eslint/utils': [ '8.43.0' ],
+55 silly audit   '@typescript-eslint/visitor-keys': [ '8.43.0' ],
+55 silly audit   '@ungap/structured-clone': [ '1.3.0' ],
+55 silly audit   '@unrs/resolver-binding-android-arm-eabi': [ '1.11.1' ],
+55 silly audit   '@unrs/resolver-binding-android-arm64': [ '1.11.1' ],
+55 silly audit   '@unrs/resolver-binding-darwin-arm64': [ '1.11.1' ],
+55 silly audit   '@unrs/resolver-binding-darwin-x64': [ '1.11.1' ],
+55 silly audit   '@unrs/resolver-binding-freebsd-x64': [ '1.11.1' ],
+55 silly audit   '@unrs/resolver-binding-linux-arm-gnueabihf': [ '1.11.1' ],
+55 silly audit   '@unrs/resolver-binding-linux-arm-musleabihf': [ '1.11.1' ],
+55 silly audit   '@unrs/resolver-binding-linux-arm64-gnu': [ '1.11.1' ],
+55 silly audit   '@unrs/resolver-binding-linux-arm64-musl': [ '1.11.1' ],
+55 silly audit   '@unrs/resolver-binding-linux-ppc64-gnu': [ '1.11.1' ],
+55 silly audit   '@unrs/resolver-binding-linux-riscv64-gnu': [ '1.11.1' ],
+55 silly audit   '@unrs/resolver-binding-linux-riscv64-musl': [ '1.11.1' ],
+55 silly audit   '@unrs/resolver-binding-linux-s390x-gnu': [ '1.11.1' ],
+55 silly audit   '@unrs/resolver-binding-linux-x64-gnu': [ '1.11.1' ],
+55 silly audit   '@unrs/resolver-binding-linux-x64-musl': [ '1.11.1' ],
+55 silly audit   '@unrs/resolver-binding-wasm32-wasi': [ '1.11.1' ],
+55 silly audit   '@unrs/resolver-binding-win32-arm64-msvc': [ '1.11.1' ],
+55 silly audit   '@unrs/resolver-binding-win32-ia32-msvc': [ '1.11.1' ],
+55 silly audit   '@unrs/resolver-binding-win32-x64-msvc': [ '1.11.1' ],
+55 silly audit   acorn: [ '8.15.0' ],
+55 silly audit   'acorn-jsx': [ '5.3.2' ],
+55 silly audit   ajv: [ '6.12.6' ],
+55 silly audit   'ansi-styles': [ '4.3.0', '6.2.3' ],
+55 silly audit   'any-promise': [ '1.3.0' ],
+55 silly audit   anymatch: [ '3.1.3' ],
+55 silly audit   arg: [ '5.0.2' ],
+55 silly audit   argparse: [ '2.0.1' ],
+55 silly audit   'aria-query': [ '5.3.2' ],
+55 silly audit   'array-buffer-byte-length': [ '1.0.2' ],
+55 silly audit   'array-includes': [ '3.1.9' ],
+55 silly audit   'array.prototype.findlast': [ '1.2.5' ],
+55 silly audit   'array.prototype.findlastindex': [ '1.2.6' ],
+55 silly audit   'array.prototype.flat': [ '1.3.3' ],
+55 silly audit   'array.prototype.flatmap': [ '1.3.3' ],
+55 silly audit   'array.prototype.tosorted': [ '1.1.4' ],
+55 silly audit   'arraybuffer.prototype.slice': [ '1.0.4' ],
+55 silly audit   'ast-types-flow': [ '0.0.8' ],
+55 silly audit   'async-function': [ '1.0.0' ],
+55 silly audit   'available-typed-arrays': [ '1.0.7' ],
+55 silly audit   'axe-core': [ '4.10.3' ],
+55 silly audit   'axobject-query': [ '4.1.0' ],
+55 silly audit   'balanced-match': [ '1.0.2' ],
+55 silly audit   'binary-extensions': [ '2.3.0' ],
+55 silly audit   braces: [ '3.0.3' ],
+55 silly audit   'call-bind': [ '1.0.8' ],
+55 silly audit   'call-bind-apply-helpers': [ '1.0.2' ],
+55 silly audit   'call-bound': [ '1.0.4' ],
+55 silly audit   callsites: [ '3.1.0' ],
+55 silly audit   'camelcase-css': [ '2.0.1' ],
+55 silly audit   'caniuse-lite': [ '1.0.30001741' ],
+55 silly audit   chalk: [ '4.1.2' ],
+55 silly audit   chokidar: [ '3.6.0' ],
+55 silly audit   'client-only': [ '0.0.1' ],
+55 silly audit   color: [ '4.2.3' ],
+55 silly audit   'color-convert': [ '2.0.1' ],
+55 silly audit   'color-name': [ '1.1.4' ],
+55 silly audit   'color-string': [ '1.9.1' ],
+55 silly audit   commander: [ '4.1.1' ],
+55 silly audit   'concat-map': [ '0.0.1' ],
+55 silly audit   'countup.js': [ '2.9.0' ],
+55 silly audit   'cross-spawn': [ '7.0.6' ],
+55 silly audit   cssesc: [ '3.0.0' ],
+55 silly audit   csstype: [ '3.1.3' ],
+55 silly audit   'damerau-levenshtein': [ '1.0.8' ],
+55 silly audit   'data-view-buffer': [ '1.0.2' ],
+55 silly audit   'data-view-byte-length': [ '1.0.2' ],
+55 silly audit   'data-view-byte-offset': [ '1.0.1' ],
+55 silly audit   debug: [ '4.4.1', '3.2.7' ],
+55 silly audit   'deep-is': [ '0.1.4' ],
+55 silly audit   'define-data-property': [ '1.1.4' ],
+55 silly audit   'define-properties': [ '1.2.1' ],
+55 silly audit   'detect-libc': [ '2.0.4' ],
+55 silly audit   didyoumean: [ '1.2.2' ],
+55 silly audit   dlv: [ '1.1.3' ],
+55 silly audit   doctrine: [ '2.1.0', '3.0.0' ],
+55 silly audit   'dunder-proto': [ '1.0.1' ],
+55 silly audit   eastasianwidth: [ '0.2.0' ],
+55 silly audit   'emoji-regex': [ '9.2.2', '8.0.0' ],
+55 silly audit   'es-abstract': [ '1.24.0' ],
+55 silly audit   'es-define-property': [ '1.0.1' ],
+55 silly audit   'es-errors': [ '1.3.0' ],
+55 silly audit   'es-iterator-helpers': [ '1.2.1' ],
+55 silly audit   'es-object-atoms': [ '1.1.1' ],
+55 silly audit   'es-set-tostringtag': [ '2.1.0' ],
+55 silly audit   'es-shim-unscopables': [ '1.1.0' ],
+55 silly audit   'es-to-primitive': [ '1.3.0' ],
+55 silly audit   'escape-string-regexp': [ '4.0.0' ],
+55 silly audit   eslint: [ '8.57.1' ],
+55 silly audit   'eslint-config-next': [ '15.5.3' ],
+55 silly audit   'eslint-import-resolver-node': [ '0.3.9' ],
+55 silly audit   'eslint-import-resolver-typescript': [ '3.10.1' ],
+55 silly audit   'eslint-module-utils': [ '2.12.1' ],
+55 silly audit   'eslint-plugin-import': [ '2.32.0' ],
+55 silly audit   semver: [ '6.3.1', '7.7.2' ],
+55 silly audit   'eslint-plugin-jsx-a11y': [ '6.10.2' ],
+55 silly audit   'eslint-plugin-react': [ '7.37.5' ],
+55 silly audit   'eslint-plugin-react-hooks': [ '5.2.0' ],
+55 silly audit   resolve: [ '2.0.0-next.5', '1.22.10' ],
+55 silly audit   'eslint-scope': [ '7.2.2' ],
+55 silly audit   espree: [ '9.6.1', '10.4.0' ],
+55 silly audit   globals: [ '13.24.0', '14.0.0' ],
+55 silly audit   esquery: [ '1.6.0' ],
+55 silly audit   esrecurse: [ '4.3.0' ],
+55 silly audit   estraverse: [ '5.3.0' ],
+55 silly audit   esutils: [ '2.0.3' ],
+55 silly audit   'fast-deep-equal': [ '3.1.3' ],
+55 silly audit   'fast-json-stable-stringify': [ '2.1.0' ],
+55 silly audit   'fast-levenshtein': [ '2.0.6' ],
+55 silly audit   fastq: [ '1.19.1' ],
+55 silly audit   'file-entry-cache': [ '6.0.1' ],
+55 silly audit   'fill-range': [ '7.1.1' ],
+55 silly audit   'find-up': [ '5.0.0' ],
+55 silly audit   'flat-cache': [ '3.2.0' ],
+55 silly audit   flatted: [ '3.3.3' ],
+55 silly audit   'for-each': [ '0.3.5' ],
+55 silly audit   'foreground-child': [ '3.3.1' ],
+55 silly audit   'framer-motion': [ '11.18.2' ],
+55 silly audit   'fs.realpath': [ '1.0.0' ],
+55 silly audit   fsevents: [ '2.3.3' ],
+55 silly audit   'function-bind': [ '1.1.2' ],
+55 silly audit   'function.prototype.name': [ '1.1.8' ],
+55 silly audit   'functions-have-names': [ '1.2.3' ],
+55 silly audit   'get-intrinsic': [ '1.3.0' ],
+55 silly audit   'get-proto': [ '1.0.1' ],
+55 silly audit   'get-symbol-description': [ '1.1.0' ],
+55 silly audit   'get-tsconfig': [ '4.10.1' ],
+55 silly audit   glob: [ '7.2.3', '10.4.5' ],
+55 silly audit   globalthis: [ '1.0.4' ],
+55 silly audit   gopd: [ '1.2.0' ],
+55 silly audit   graphemer: [ '1.4.0' ],
+55 silly audit   'has-bigints': [ '1.1.0' ],
+55 silly audit   'has-flag': [ '4.0.0' ],
+55 silly audit   'has-property-descriptors': [ '1.0.2' ],
+55 silly audit   'has-proto': [ '1.2.0' ],
+55 silly audit   'has-symbols': [ '1.1.0' ],
+55 silly audit   'has-tostringtag': [ '1.0.2' ],
+55 silly audit   hasown: [ '2.0.2' ],
+55 silly audit   'import-fresh': [ '3.3.1' ],
+55 silly audit   imurmurhash: [ '0.1.4' ],
+55 silly audit   inflight: [ '1.0.6' ],
+55 silly audit   inherits: [ '2.0.4' ],
+55 silly audit   'internal-slot': [ '1.1.0' ],
+55 silly audit   'is-array-buffer': [ '3.0.5' ],
+55 silly audit   'is-arrayish': [ '0.3.2' ],
+55 silly audit   'is-async-function': [ '2.1.1' ],
+55 silly audit   'is-bigint': [ '1.1.0' ],
+55 silly audit   'is-binary-path': [ '2.1.0' ],
+55 silly audit   'is-boolean-object': [ '1.2.2' ],
+55 silly audit   'is-bun-module': [ '2.0.0' ],
+55 silly audit   'is-callable': [ '1.2.7' ],
+55 silly audit   'is-core-module': [ '2.16.1' ],
+55 silly audit   'is-data-view': [ '1.0.2' ],
+55 silly audit   'is-date-object': [ '1.1.0' ],
+55 silly audit   'is-extglob': [ '2.1.1' ],
+55 silly audit   'is-finalizationregistry': [ '1.1.1' ],
+55 silly audit   'is-fullwidth-code-point': [ '3.0.0' ],
+55 silly audit   'is-generator-function': [ '1.1.0' ],
+55 silly audit   'is-glob': [ '4.0.3' ],
+55 silly audit   'is-map': [ '2.0.3' ],
+55 silly audit   'is-negative-zero': [ '2.0.3' ],
+55 silly audit   'is-number': [ '7.0.0' ],
+55 silly audit   'is-number-object': [ '1.1.1' ],
+55 silly audit   'is-path-inside': [ '3.0.3' ],
+55 silly audit   'is-regex': [ '1.2.1' ],
+55 silly audit   'is-set': [ '2.0.3' ],
+55 silly audit   'is-shared-array-buffer': [ '1.0.4' ],
+55 silly audit   'is-string': [ '1.1.1' ],
+55 silly audit   'is-symbol': [ '1.1.1' ],
+55 silly audit   'is-typed-array': [ '1.1.15' ],
+55 silly audit   'is-weakmap': [ '2.0.2' ],
+55 silly audit   'is-weakref': [ '1.1.1' ],
+55 silly audit   'is-weakset': [ '2.0.4' ],
+55 silly audit   isarray: [ '2.0.5' ],
+55 silly audit   isexe: [ '2.0.0' ],
+55 silly audit   'iterator.prototype': [ '1.1.5' ],
+55 silly audit   jackspeak: [ '3.4.3' ],
+55 silly audit   jiti: [ '1.21.7' ],
+55 silly audit   'js-tokens': [ '4.0.0' ],
+55 silly audit   'js-yaml': [ '4.1.0' ],
+55 silly audit   'json-buffer': [ '3.0.1' ],
+55 silly audit   'json-schema-traverse': [ '0.4.1' ],
+55 silly audit   'json-stable-stringify-without-jsonify': [ '1.0.1' ],
+55 silly audit   json5: [ '1.0.2' ],
+55 silly audit   'jsx-ast-utils': [ '3.3.5' ],
+55 silly audit   keyv: [ '4.5.4' ],
+55 silly audit   'language-subtag-registry': [ '0.3.23' ],
+55 silly audit   'language-tags': [ '1.0.9' ],
+55 silly audit   levn: [ '0.4.1' ],
+55 silly audit   lilconfig: [ '3.1.3' ],
+55 silly audit   'lines-and-columns': [ '1.2.4' ],
+55 silly audit   'locate-path': [ '6.0.0' ],
+55 silly audit   'lodash.merge': [ '4.6.2' ],
+55 silly audit   'loose-envify': [ '1.4.0' ],
+55 silly audit   'lru-cache': [ '10.4.3' ],
+55 silly audit   'lucide-react': [ '0.468.0' ],
+55 silly audit   'math-intrinsics': [ '1.1.0' ],
+55 silly audit   merge2: [ '1.4.1' ],
+55 silly audit   micromatch: [ '4.0.8' ],
+55 silly audit   minimist: [ '1.2.8' ],
+55 silly audit   minipass: [ '7.1.2' ],
+55 silly audit   'motion-dom': [ '11.18.1' ],
+55 silly audit   'motion-utils': [ '11.18.1' ],
+55 silly audit   ms: [ '2.1.3' ],
+55 silly audit   mz: [ '2.7.0' ],
+55 silly audit   nanoid: [ '3.3.11' ],
+55 silly audit   'napi-postinstall': [ '0.3.3' ],
+55 silly audit   'natural-compare': [ '1.4.0' ],
+55 silly audit   next: [ '15.5.3' ],
+55 silly audit   postcss: [ '8.4.31', '8.5.6' ],
+55 silly audit   'normalize-path': [ '3.0.0' ],
+55 silly audit   'object-assign': [ '4.1.1' ],
+55 silly audit   'object-hash': [ '3.0.0' ],
+55 silly audit   'object-inspect': [ '1.13.4' ],
+55 silly audit   'object-keys': [ '1.1.1' ],
+55 silly audit   'object.assign': [ '4.1.7' ],
+55 silly audit   'object.entries': [ '1.1.9' ],
+55 silly audit   'object.fromentries': [ '2.0.8' ],
+55 silly audit   'object.groupby': [ '1.0.3' ],
+55 silly audit   'object.values': [ '1.2.1' ],
+55 silly audit   once: [ '1.4.0' ],
+55 silly audit   optionator: [ '0.9.4' ],
+55 silly audit   'own-keys': [ '1.0.1' ],
+55 silly audit   'p-limit': [ '3.1.0' ],
+55 silly audit   'p-locate': [ '5.0.0' ],
+55 silly audit   'package-json-from-dist': [ '1.0.1' ],
+55 silly audit   'parent-module': [ '1.0.1' ],
+55 silly audit   'path-exists': [ '4.0.0' ],
+55 silly audit   'path-is-absolute': [ '1.0.1' ],
+55 silly audit   'path-key': [ '3.1.1' ],
+55 silly audit   'path-parse': [ '1.0.7' ],
+55 silly audit   'path-scurry': [ '1.11.1' ],
+55 silly audit   picocolors: [ '1.1.1' ],
+55 silly audit   picomatch: [ '2.3.1', '4.0.3' ],
+55 silly audit   pify: [ '2.3.0' ],
+55 silly audit   pirates: [ '4.0.7' ],
+55 silly audit   'possible-typed-array-names': [ '1.1.0' ],
+55 silly audit   'postcss-import': [ '15.1.0' ],
+55 silly audit   'postcss-js': [ '4.0.1' ],
+55 silly audit   'postcss-load-config': [ '4.0.2' ],
+55 silly audit   'postcss-nested': [ '6.2.0' ],
+55 silly audit   'postcss-selector-parser': [ '6.1.2' ],
+55 silly audit   'postcss-value-parser': [ '4.2.0' ],
+55 silly audit   'prelude-ls': [ '1.2.1' ],
+55 silly audit   'prop-types': [ '15.8.1' ],
+55 silly audit   punycode: [ '2.3.1' ],
+55 silly audit   'queue-microtask': [ '1.2.3' ],
+55 silly audit   react: [ '19.0.0' ],
+55 silly audit   'react-countup': [ '6.5.3' ],
+55 silly audit   'react-dom': [ '19.0.0' ],
+55 silly audit   'react-hook-form': [ '7.62.0' ],
+55 silly audit   'react-is': [ '16.13.1' ],
+55 silly audit   'read-cache': [ '1.0.0' ],
+55 silly audit   readdirp: [ '3.6.0' ],
+55 silly audit   'reflect.getprototypeof': [ '1.0.10' ],
+55 silly audit   'regexp.prototype.flags': [ '1.5.4' ],
+55 silly audit   'resolve-from': [ '4.0.0' ],
+55 silly audit   'resolve-pkg-maps': [ '1.0.0' ],
+55 silly audit   reusify: [ '1.1.0' ],
+55 silly audit   rimraf: [ '3.0.2' ],
+55 silly audit   'run-parallel': [ '1.2.0' ],
+55 silly audit   'safe-array-concat': [ '1.1.3' ],
+55 silly audit   'safe-push-apply': [ '1.0.0' ],
+55 silly audit   'safe-regex-test': [ '1.1.0' ],
+55 silly audit   scheduler: [ '0.25.0' ],
+55 silly audit   'set-function-length': [ '1.2.2' ],
+55 silly audit   'set-function-name': [ '2.0.2' ],
+55 silly audit   'set-proto': [ '1.0.0' ],
+55 silly audit   sharp: [ '0.34.3' ],
+55 silly audit   'shebang-command': [ '2.0.0' ],
+55 silly audit   'shebang-regex': [ '3.0.0' ],
+55 silly audit   'side-channel': [ '1.1.0' ],
+55 silly audit   'side-channel-list': [ '1.0.0' ],
+55 silly audit   'side-channel-map': [ '1.0.1' ],
+55 silly audit   'side-channel-weakmap': [ '1.0.2' ],
+55 silly audit   'signal-exit': [ '4.1.0' ],
+55 silly audit   'simple-swizzle': [ '0.2.2' ],
+55 silly audit   'source-map-js': [ '1.2.1' ],
+55 silly audit   'stable-hash': [ '0.0.5' ],
+55 silly audit   'stop-iteration-iterator': [ '1.1.0' ],
+55 silly audit   'string-width': [ '5.1.2', '4.2.3' ],
+55 silly audit   'string.prototype.includes': [ '2.0.1' ],
+55 silly audit   'string.prototype.matchall': [ '4.0.12' ],
+55 silly audit   'string.prototype.repeat': [ '1.0.0' ],
+55 silly audit   'string.prototype.trim': [ '1.2.10' ],
+55 silly audit   'string.prototype.trimend': [ '1.0.9' ],
+55 silly audit   'string.prototype.trimstart': [ '1.0.8' ],
+55 silly audit   'strip-bom': [ '3.0.0' ],
+55 silly audit   'strip-json-comments': [ '3.1.1' ],
+55 silly audit   'styled-jsx': [ '5.1.6' ],
+55 silly audit   sucrase: [ '3.35.0' ],
+55 silly audit   'supports-color': [ '7.2.0' ],
+55 silly audit   'supports-preserve-symlinks-flag': [ '1.0.0' ],
+55 silly audit   'text-table': [ '0.2.0' ],
+55 silly audit   thenify: [ '3.3.1' ],
+55 silly audit   'thenify-all': [ '1.6.0' ],
+55 silly audit   tinyglobby: [ '0.2.15' ],
+55 silly audit   fdir: [ '6.5.0' ],
+55 silly audit   'to-regex-range': [ '5.0.1' ],
+55 silly audit   'ts-api-utils': [ '2.1.0' ],
+55 silly audit   'ts-interface-checker': [ '0.1.13' ],
+55 silly audit   'tsconfig-paths': [ '3.15.0' ],
+55 silly audit   tslib: [ '2.8.1' ],
+55 silly audit   'type-check': [ '0.4.0' ],
+55 silly audit   'type-fest': [ '0.20.2' ],
+55 silly audit   'typed-array-buffer': [ '1.0.3' ],
+55 silly audit   'typed-array-byte-length': [ '1.0.3' ],
+55 silly audit   'typed-array-byte-offset': [ '1.0.4' ],
+55 silly audit   'typed-array-length': [ '1.0.7' ],
+55 silly audit   typescript: [ '5.9.2' ],
+55 silly audit   'unbox-primitive': [ '1.1.0' ],
+55 silly audit   'undici-types': [ '6.21.0' ],
+55 silly audit   'unrs-resolver': [ '1.11.1' ],
+55 silly audit   'uri-js': [ '4.4.1' ],
+55 silly audit   'util-deprecate': [ '1.0.2' ],
+55 silly audit   which: [ '2.0.2' ],
+55 silly audit   'which-boxed-primitive': [ '1.1.1' ],
+55 silly audit   'which-builtin-type': [ '1.2.1' ],
+55 silly audit   'which-collection': [ '1.0.2' ],
+55 silly audit   'which-typed-array': [ '1.1.19' ],
+55 silly audit   'word-wrap': [ '1.2.5' ],
+55 silly audit   'wrap-ansi': [ '8.1.0', '7.0.0' ],
+55 silly audit   wrappy: [ '1.0.2' ],
+55 silly audit   yaml: [ '2.8.1' ],
+55 silly audit   'yocto-queue': [ '0.1.0' ],
+55 silly audit   zod: [ '3.25.76' ]
+55 silly audit }
+56 verbose reify failed optional dependency /Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/@unrs/resolver-binding-win32-x64-msvc
+57 silly reify mark deleted [
+57 silly reify   '/Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/@unrs/resolver-binding-win32-x64-msvc'
+57 silly reify ]
+58 verbose reify failed optional dependency /Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/@unrs/resolver-binding-win32-ia32-msvc
+59 silly reify mark deleted [
+59 silly reify   '/Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/@unrs/resolver-binding-win32-ia32-msvc'
+59 silly reify ]
+60 verbose reify failed optional dependency /Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/@unrs/resolver-binding-win32-arm64-msvc
+61 silly reify mark deleted [
+61 silly reify   '/Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/@unrs/resolver-binding-win32-arm64-msvc'
+61 silly reify ]
+62 verbose reify failed optional dependency /Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/@unrs/resolver-binding-wasm32-wasi
+63 silly reify mark deleted [
+63 silly reify   '/Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/@unrs/resolver-binding-wasm32-wasi'
+63 silly reify ]
+64 verbose reify failed optional dependency /Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/@napi-rs/wasm-runtime
+65 silly reify mark deleted [
+65 silly reify   '/Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/@napi-rs/wasm-runtime'
+65 silly reify ]
+66 verbose reify failed optional dependency /Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/@emnapi/core
+67 silly reify mark deleted [
+67 silly reify   '/Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/@emnapi/core'
+67 silly reify ]
+68 verbose reify failed optional dependency /Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/@tybys/wasm-util
+69 silly reify mark deleted [
+69 silly reify   '/Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/@tybys/wasm-util'
+69 silly reify ]
+70 verbose reify failed optional dependency /Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/@emnapi/wasi-threads
+71 silly reify mark deleted [
+71 silly reify   '/Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/@emnapi/wasi-threads'
+71 silly reify ]
+72 verbose reify failed optional dependency /Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/@unrs/resolver-binding-linux-x64-musl
+73 silly reify mark deleted [
+73 silly reify   '/Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/@unrs/resolver-binding-linux-x64-musl'
+73 silly reify ]
+74 verbose reify failed optional dependency /Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/@unrs/resolver-binding-linux-x64-gnu
+75 silly reify mark deleted [
+75 silly reify   '/Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/@unrs/resolver-binding-linux-x64-gnu'
+75 silly reify ]
+76 verbose reify failed optional dependency /Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/@unrs/resolver-binding-linux-s390x-gnu
+77 silly reify mark deleted [
+77 silly reify   '/Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/@unrs/resolver-binding-linux-s390x-gnu'
+77 silly reify ]
+78 verbose reify failed optional dependency /Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/@unrs/resolver-binding-linux-riscv64-musl
+79 silly reify mark deleted [
+79 silly reify   '/Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/@unrs/resolver-binding-linux-riscv64-musl'
+79 silly reify ]
+80 verbose reify failed optional dependency /Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/@unrs/resolver-binding-linux-riscv64-gnu
+81 silly reify mark deleted [
+81 silly reify   '/Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/@unrs/resolver-binding-linux-riscv64-gnu'
+81 silly reify ]
+82 verbose reify failed optional dependency /Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/@unrs/resolver-binding-linux-ppc64-gnu
+83 silly reify mark deleted [
+83 silly reify   '/Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/@unrs/resolver-binding-linux-ppc64-gnu'
+83 silly reify ]
+84 verbose reify failed optional dependency /Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/@unrs/resolver-binding-linux-arm64-musl
+85 silly reify mark deleted [
+85 silly reify   '/Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/@unrs/resolver-binding-linux-arm64-musl'
+85 silly reify ]
+86 verbose reify failed optional dependency /Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/@unrs/resolver-binding-linux-arm64-gnu
+87 silly reify mark deleted [
+87 silly reify   '/Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/@unrs/resolver-binding-linux-arm64-gnu'
+87 silly reify ]
+88 verbose reify failed optional dependency /Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/@unrs/resolver-binding-linux-arm-musleabihf
+89 silly reify mark deleted [
+89 silly reify   '/Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/@unrs/resolver-binding-linux-arm-musleabihf'
+89 silly reify ]
+90 verbose reify failed optional dependency /Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/@unrs/resolver-binding-linux-arm-gnueabihf
+91 silly reify mark deleted [
+91 silly reify   '/Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/@unrs/resolver-binding-linux-arm-gnueabihf'
+91 silly reify ]
+92 verbose reify failed optional dependency /Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/@unrs/resolver-binding-freebsd-x64
+93 silly reify mark deleted [
+93 silly reify   '/Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/@unrs/resolver-binding-freebsd-x64'
+93 silly reify ]
+94 verbose reify failed optional dependency /Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/@unrs/resolver-binding-darwin-x64
+95 silly reify mark deleted [
+95 silly reify   '/Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/@unrs/resolver-binding-darwin-x64'
+95 silly reify ]
+96 verbose reify failed optional dependency /Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/@unrs/resolver-binding-android-arm64
+97 silly reify mark deleted [
+97 silly reify   '/Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/@unrs/resolver-binding-android-arm64'
+97 silly reify ]
+98 verbose reify failed optional dependency /Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/@unrs/resolver-binding-android-arm-eabi
+99 silly reify mark deleted [
+99 silly reify   '/Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/@unrs/resolver-binding-android-arm-eabi'
+99 silly reify ]
+100 verbose reify failed optional dependency /Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/@next/swc-win32-x64-msvc
+101 silly reify mark deleted [
+101 silly reify   '/Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/@next/swc-win32-x64-msvc'
+101 silly reify ]
+102 verbose reify failed optional dependency /Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/@next/swc-win32-arm64-msvc
+103 silly reify mark deleted [
+103 silly reify   '/Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/@next/swc-win32-arm64-msvc'
+103 silly reify ]
+104 verbose reify failed optional dependency /Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/@next/swc-linux-x64-musl
+105 silly reify mark deleted [
+105 silly reify   '/Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/@next/swc-linux-x64-musl'
+105 silly reify ]
+106 verbose reify failed optional dependency /Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/@next/swc-linux-x64-gnu
+107 silly reify mark deleted [
+107 silly reify   '/Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/@next/swc-linux-x64-gnu'
+107 silly reify ]
+108 verbose reify failed optional dependency /Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/@next/swc-linux-arm64-musl
+109 silly reify mark deleted [
+109 silly reify   '/Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/@next/swc-linux-arm64-musl'
+109 silly reify ]
+110 verbose reify failed optional dependency /Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/@next/swc-linux-arm64-gnu
+111 silly reify mark deleted [
+111 silly reify   '/Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/@next/swc-linux-arm64-gnu'
+111 silly reify ]
+112 verbose reify failed optional dependency /Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/@next/swc-darwin-x64
+113 silly reify mark deleted [
+113 silly reify   '/Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/@next/swc-darwin-x64'
+113 silly reify ]
+114 verbose reify failed optional dependency /Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/@img/sharp-win32-x64
+115 silly reify mark deleted [
+115 silly reify   '/Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/@img/sharp-win32-x64'
+115 silly reify ]
+116 verbose reify failed optional dependency /Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/@img/sharp-win32-ia32
+117 silly reify mark deleted [
+117 silly reify   '/Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/@img/sharp-win32-ia32'
+117 silly reify ]
+118 verbose reify failed optional dependency /Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/@img/sharp-win32-arm64
+119 silly reify mark deleted [
+119 silly reify   '/Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/@img/sharp-win32-arm64'
+119 silly reify ]
+120 verbose reify failed optional dependency /Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/@img/sharp-wasm32
+121 silly reify mark deleted [
+121 silly reify   '/Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/@img/sharp-wasm32'
+121 silly reify ]
+122 verbose reify failed optional dependency /Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/@img/sharp-linuxmusl-x64
+123 silly reify mark deleted [
+123 silly reify   '/Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/@img/sharp-linuxmusl-x64'
+123 silly reify ]
+124 verbose reify failed optional dependency /Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/@img/sharp-linuxmusl-arm64
+125 silly reify mark deleted [
+125 silly reify   '/Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/@img/sharp-linuxmusl-arm64'
+125 silly reify ]
+126 verbose reify failed optional dependency /Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/@img/sharp-linux-x64
+127 silly reify mark deleted [
+127 silly reify   '/Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/@img/sharp-linux-x64'
+127 silly reify ]
+128 verbose reify failed optional dependency /Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/@img/sharp-linux-s390x
+129 silly reify mark deleted [
+129 silly reify   '/Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/@img/sharp-linux-s390x'
+129 silly reify ]
+130 verbose reify failed optional dependency /Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/@img/sharp-linux-ppc64
+131 silly reify mark deleted [
+131 silly reify   '/Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/@img/sharp-linux-ppc64'
+131 silly reify ]
+132 verbose reify failed optional dependency /Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/@img/sharp-linux-arm64
+133 silly reify mark deleted [
+133 silly reify   '/Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/@img/sharp-linux-arm64'
+133 silly reify ]
+134 verbose reify failed optional dependency /Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/@img/sharp-linux-arm
+135 silly reify mark deleted [
+135 silly reify   '/Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/@img/sharp-linux-arm'
+135 silly reify ]
+136 verbose reify failed optional dependency /Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/@img/sharp-libvips-linuxmusl-x64
+137 silly reify mark deleted [
+137 silly reify   '/Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/@img/sharp-libvips-linuxmusl-x64'
+137 silly reify ]
+138 verbose reify failed optional dependency /Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/@img/sharp-libvips-linuxmusl-arm64
+139 silly reify mark deleted [
+139 silly reify   '/Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/@img/sharp-libvips-linuxmusl-arm64'
+139 silly reify ]
+140 verbose reify failed optional dependency /Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/@img/sharp-libvips-linux-x64
+141 silly reify mark deleted [
+141 silly reify   '/Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/@img/sharp-libvips-linux-x64'
+141 silly reify ]
+142 verbose reify failed optional dependency /Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/@img/sharp-libvips-linux-s390x
+143 silly reify mark deleted [
+143 silly reify   '/Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/@img/sharp-libvips-linux-s390x'
+143 silly reify ]
+144 verbose reify failed optional dependency /Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/@img/sharp-libvips-linux-ppc64
+145 silly reify mark deleted [
+145 silly reify   '/Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/@img/sharp-libvips-linux-ppc64'
+145 silly reify ]
+146 verbose reify failed optional dependency /Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/@img/sharp-libvips-linux-arm64
+147 silly reify mark deleted [
+147 silly reify   '/Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/@img/sharp-libvips-linux-arm64'
+147 silly reify ]
+148 verbose reify failed optional dependency /Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/@img/sharp-libvips-linux-arm
+149 silly reify mark deleted [
+149 silly reify   '/Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/@img/sharp-libvips-linux-arm'
+149 silly reify ]
+150 verbose reify failed optional dependency /Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/@img/sharp-libvips-darwin-x64
+151 silly reify mark deleted [
+151 silly reify   '/Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/@img/sharp-libvips-darwin-x64'
+151 silly reify ]
+152 verbose reify failed optional dependency /Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/@img/sharp-darwin-x64
+153 silly reify mark deleted [
+153 silly reify   '/Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/node_modules/@img/sharp-darwin-x64'
+153 silly reify ]
+154 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 157ms
+155 silly audit report {}
+156 silly ADD
+157 silly ADD
+158 silly ADD
+159 silly ADD
+160 silly ADD
+161 silly ADD
+162 silly ADD
+163 silly ADD
+164 silly ADD
+165 silly ADD
+166 silly ADD
+167 silly ADD
+168 silly ADD
+169 silly ADD
+170 silly ADD
+171 silly ADD
+172 silly ADD
+173 silly ADD
+174 silly ADD
+175 silly ADD
+176 silly ADD
+177 silly ADD
+178 silly ADD
+179 silly ADD
+180 silly ADD
+181 silly ADD
+182 silly ADD
+183 silly ADD
+184 silly ADD
+185 silly ADD
+186 silly ADD
+187 silly ADD
+188 silly ADD
+189 silly ADD
+190 silly ADD
+191 silly ADD
+192 silly ADD
+193 silly ADD
+194 silly ADD
+195 silly ADD
+196 silly ADD
+197 silly ADD
+198 silly ADD
+199 silly ADD
+200 silly ADD
+201 silly REMOVE node_modules/yallist
+202 silly REMOVE node_modules/universalify
+203 silly REMOVE node_modules/trim-repeated
+204 silly REMOVE node_modules/trim-repeated/node_modules/escape-string-regexp
+205 silly REMOVE node_modules/tar
+206 silly REMOVE node_modules/tapable
+207 silly REMOVE node_modules/strip-outer
+208 silly REMOVE node_modules/strip-outer/node_modules/escape-string-regexp
+209 silly REMOVE node_modules/slash
+210 silly REMOVE node_modules/pkg-dir
+211 silly REMOVE node_modules/pkg-dir/node_modules/p-locate
+212 silly REMOVE node_modules/pkg-dir/node_modules/p-limit
+213 silly REMOVE node_modules/pkg-dir/node_modules/locate-path
+214 silly REMOVE node_modules/pkg-dir/node_modules/find-up
+215 silly REMOVE node_modules/path-type
+216 silly REMOVE node_modules/p-try
+217 silly REMOVE node_modules/mkdirp
+218 silly REMOVE node_modules/minizlib
+219 silly REMOVE node_modules/make-dir
+220 silly REMOVE node_modules/make-dir/node_modules/semver
+221 silly REMOVE node_modules/magic-string
+222 silly REMOVE node_modules/lightningcss-darwin-arm64
+223 silly REMOVE node_modules/lightningcss
+224 silly REMOVE node_modules/jsonfile
+225 silly REMOVE node_modules/jiti
+226 silly REMOVE node_modules/graceful-fs
+227 silly REMOVE node_modules/globby
+228 silly REMOVE node_modules/gh-pages
+229 silly REMOVE node_modules/fs-extra
+230 silly REMOVE node_modules/find-cache-dir
+231 silly REMOVE node_modules/filenamify
+232 silly REMOVE node_modules/filename-reserved-regex
+233 silly REMOVE node_modules/enhanced-resolve
+234 silly REMOVE node_modules/email-addresses
+235 silly REMOVE node_modules/dir-glob
+236 silly REMOVE node_modules/commondir
+237 silly REMOVE node_modules/commander
+238 silly REMOVE node_modules/chownr
+239 silly REMOVE node_modules/async
+240 silly REMOVE node_modules/array-union
+241 silly REMOVE node_modules/@tailwindcss/postcss
+242 silly REMOVE node_modules/@tailwindcss/postcss/node_modules/tailwindcss
+243 silly REMOVE node_modules/@tailwindcss/oxide-darwin-arm64
+244 silly REMOVE node_modules/@tailwindcss/oxide
+245 silly REMOVE node_modules/@tailwindcss/node
+246 silly REMOVE node_modules/@tailwindcss/node/node_modules/tailwindcss
+247 silly REMOVE node_modules/@jridgewell/remapping
+248 silly REMOVE node_modules/@isaacs/fs-minipass
+249 verbose cwd /Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer
+250 verbose os Darwin 23.1.0
+251 verbose node v22.15.1
+252 verbose npm  v10.9.2
+253 verbose exit 0
+254 info ok

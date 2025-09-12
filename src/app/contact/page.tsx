@@ -18,15 +18,23 @@ export default function ContactPage() {
 
   const onSubmit = async (data: ContactFormInput) => {
     try {
-      // For GitHub Pages, simulate form submission
-      console.log("Contact form data:", data);
-      await new Promise(resolve => setTimeout(resolve, 1000));
+      const response = await fetch("/api/mock-form", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ type: "contact", data }),
+      });
+
+      const result = await response.json();
       
-      track(ConversionEvents.CONTACT_FORM);
-      alert("Thanks! We'll get back to you soon.");
-      reset();
-    } catch (e) {
-      console.error(e);
+      if (result.success) {
+        track(ConversionEvents.CONTACT_FORM);
+        alert("Thanks! We'll get back to you soon.");
+        reset();
+      } else {
+        throw new Error(result.error || 'Submission failed');
+      }
+    } catch (error) {
+      console.error('Contact form error:', error);
       alert("Something went wrong. Please try again.");
     }
   };

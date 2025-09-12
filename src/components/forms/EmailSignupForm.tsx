@@ -2,6 +2,7 @@
 
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
+import { useRouter } from "next/navigation";
 import { emailSignupSchema, EmailSignupInput } from "@/lib/validations";
 import { Button } from "@/components/ui/Button";
 import { track } from "@/lib/analytics";
@@ -9,8 +10,8 @@ import { ConversionEvents } from "@/lib/constants";
 import { useState } from "react";
 
 export function EmailSignupForm() {
+  const router = useRouter();
   const [submitting, setSubmitting] = useState(false);
-  const [submitted, setSubmitted] = useState(false);
 
   const {
     register,
@@ -21,31 +22,27 @@ export function EmailSignupForm() {
   const onSubmit = async (data: EmailSignupInput) => {
     setSubmitting(true);
     try {
-      // For GitHub Pages, we'll simulate form submission
-      // In production, you'd integrate with a service like Formspree, Netlify Forms, or similar
-      console.log("Form data:", data);
+      const response = await fetch("/api/mock-form", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ type: "email_signup", data }),
+      });
+
+      const result = await response.json();
       
-      // Simulate API call
-      await new Promise(resolve => setTimeout(resolve, 1000));
-      
-      track(ConversionEvents.EMAIL_SIGNUP, { plan: "unknown" });
-      setSubmitted(true);
-    } catch (e) {
-      console.error(e);
+      if (result.success) {
+        track(ConversionEvents.EMAIL_SIGNUP, { plan: "unknown" });
+        router.push("/welcome");
+      } else {
+        throw new Error(result.error || 'Submission failed');
+      }
+    } catch (error) {
+      console.error('Form submission error:', error);
       alert("Something went wrong. Please try again.");
     } finally {
       setSubmitting(false);
     }
   };
-
-  if (submitted) {
-    return (
-      <div className="text-center p-6 bg-success-green/10 rounded-lg border border-success-green/20">
-        <h3 className="text-xl font-semibold text-success-green mb-2">Thank you!</h3>
-        <p className="text-gray-700">We've received your information and will send you a free debt analysis soon.</p>
-      </div>
-    );
-  }
 
   return (
     <form onSubmit={handleSubmit(onSubmit)} className="grid gap-3">

@@ -1,15 +1,13 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  output: 'export',
-  trailingSlash: true,
-  images: {
-    unoptimized: true,
+  // Optimized for Vercel deployment
+  experimental: {
+    optimizePackageImports: ['lucide-react', 'framer-motion'],
   },
-  // GitHub Pages serves from a subdirectory, so we need to set the base path
-  // Remove this line if you're using a custom domain
-  basePath: process.env.NODE_ENV === 'production' ? '/DebtOptimizer' : '',
-  assetPrefix: process.env.NODE_ENV === 'production' ? '/DebtOptimizer/' : '',
+  images: {
+    formats: ['image/webp', 'image/avif'],
+  },
 };
 
 export default nextConfig;
