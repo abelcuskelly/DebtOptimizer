@@ -13,8 +13,6 @@ interface ModalProps {
 }
 
 export function Modal({ isOpen, onClose, title, children, maxWidth = 'md' }: ModalProps) {
-  console.log("Modal render - isOpen:", isOpen);
-  
   // Close modal on Escape key
   useEffect(() => {
     const handleEscape = (event: KeyboardEvent) => {
