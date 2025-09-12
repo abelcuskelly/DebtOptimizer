@@ -17,14 +17,18 @@ export default function ContactPage() {
   } = useForm<ContactFormInput>({ resolver: zodResolver(contactFormSchema) });
 
   const onSubmit = async (data: ContactFormInput) => {
-    await fetch("/api/mock-form", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ type: "contact", data }),
-    });
-    track(ConversionEvents.CONTACT_FORM);
-    alert("Thanks! We'll get back to you soon.");
-    reset();
+    try {
+      // For GitHub Pages, simulate form submission
+      console.log("Contact form data:", data);
+      await new Promise(resolve => setTimeout(resolve, 1000));
+      
+      track(ConversionEvents.CONTACT_FORM);
+      alert("Thanks! We'll get back to you soon.");
+      reset();
+    } catch (e) {
+      console.error(e);
+      alert("Something went wrong. Please try again.");
+    }
   };
 
   return (

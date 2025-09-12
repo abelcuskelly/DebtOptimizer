@@ -10,12 +10,9 @@ export function NewsletterForm() {
   const submit = async (e: React.FormEvent) => {
     e.preventDefault();
     try {
-      const endpoint = process.env.NEXT_PUBLIC_FORM_ENDPOINT || "/api/mock-form";
-      await fetch(endpoint, {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ type: "newsletter", data: { email } }),
-      });
+      // For GitHub Pages, simulate form submission
+      console.log("Newsletter signup:", { email });
+      await new Promise(resolve => setTimeout(resolve, 500));
       setDone(true);
     } catch (e) {
       console.error(e);
@@ -23,7 +20,7 @@ export function NewsletterForm() {
     }
   };
 
-  if (done) return <p className="text-success-green">Thanks! You’re subscribed.</p>;
+  if (done) return <p className="text-success-green">Thanks! You're subscribed.</p>;
 
   return (
     <form onSubmit={submit} className="flex gap-2 max-w-md">
