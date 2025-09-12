@@ -46,6 +46,8 @@ export const userSignupSchema = z.object({
   path: ["confirmPassword"],
 });
 
+export type UserSignupInput = z.infer<typeof userSignupSchema>;
+
 // Contact form schema (existing)
 export const contactFormSchema = z.object({
   name: z.string().min(1, "Name is required").max(100, "Name too long"),
@@ -56,5 +58,4 @@ export const contactFormSchema = z.object({
 
 // Type exports
 export type EmailSignupInput = z.infer<typeof emailSignupSchema>;
-export type UserSignupInput = z.infer<typeof userSignupSchema>;
 export type ContactFormInput = z.infer<typeof contactFormSchema>; 
