@@ -1,36 +1,134 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# DebtOptimizer - AI-Powered Credit Card Debt Optimization Platform
 
-## Getting Started
+A modern, conversion-optimized consumer website for DebtOptimizer - helping users save money through intelligent debt management.
 
-First, run the development server:
+## 🚀 Quick Start
 
 ```bash
+# Install dependencies
+npm install
+
+# Run development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+
+# Build for production
+npm run build
+
+# Start production server
+npm start
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Visit http://localhost:3000 to see the site.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📁 Project Structure
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```
+src/
+├── app/                    # Next.js app router pages
+│   ├── page.tsx           # Landing page
+│   ├── features/          # Feature showcase
+│   ├── pricing/           # Pricing tiers
+│   ├── blog/              # SEO blog content
+│   └── api/               # API routes
+├── components/
+│   ├── ui/                # Reusable UI components
+│   ├── sections/          # Page sections
+│   ├── forms/             # Form components
+│   ├── layout/            # Nav, Footer
+│   └── animations/        # Animation components
+└── lib/                   # Utilities and configs
+```
 
-## Learn More
+## 🎨 Features
 
-To learn more about Next.js, take a look at the following resources:
+- **Responsive Design**: Mobile-first approach with Tailwind CSS
+- **Interactive Calculator**: Real-time debt savings calculator
+- **Form Validation**: Zod schemas with React Hook Form
+- **Analytics Ready**: GA4 and Facebook Pixel integration
+- **A/B Testing**: Built-in feature flags for headline testing
+- **SEO Optimized**: Structured data, meta tags, sitemap
+- **Performance**: Optimized images, lazy loading, code splitting
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🔧 Configuration
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Environment Variables
 
-## Deploy on Vercel
+Create a `.env.local` file:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```env
+# Analytics (optional)
+NEXT_PUBLIC_GA_MEASUREMENT_ID=G-XXXXXXXXXX
+NEXT_PUBLIC_FACEBOOK_PIXEL_ID=XXXXXXXXXXXXXXX
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+# Form Endpoint (optional, defaults to mock)
+NEXT_PUBLIC_FORM_ENDPOINT=https://your-api.com/forms
+
+# Feature Flags
+NEXT_PUBLIC_SHOW_PRICING=true
+NEXT_PUBLIC_SHOW_BLOG=true
+```
+
+### A/B Testing
+
+The site includes automatic headline A/B testing. Variants are stored in localStorage and tracked via analytics events.
+
+## 🚢 Deployment
+
+### Vercel (Recommended)
+
+1. Push to GitHub
+2. Import project in Vercel
+3. Add environment variables
+4. Deploy
+
+### Manual Deployment
+
+```bash
+# Build the application
+npm run build
+
+# Test production build locally
+npm start
+
+# Export static site (optional)
+npm run export
+```
+
+## 📊 Analytics Events
+
+The following conversion events are tracked:
+
+- `email_signup` - Primary email form submission
+- `calculator_complete` - Debt calculator completion
+- `pricing_viewed` - Pricing page view
+- `contact_submitted` - Contact form submission
+
+## 🎯 Performance Metrics
+
+Target metrics:
+- Lighthouse Score: 95+
+- First Contentful Paint: <1.5s
+- Time to Interactive: <3s
+- Core Web Vitals: All green
+
+## 🔒 Security
+
+- 256-bit encryption messaging
+- PCI DSS compliance ready
+- Security headers via middleware
+- No sensitive data in client code
+
+## 📝 Content Management
+
+Blog posts are in `src/app/blog/[slug]/page.tsx`. Add new posts by creating new folders with `page.tsx` files.
+
+## 🤝 Contributing
+
+1. Create feature branch
+2. Make changes
+3. Test on mobile and desktop
+4. Submit pull request
+
+## 📄 License
+
+Private and confidential. All rights reserved.

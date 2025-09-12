@@ -1,0 +1,18 @@
+0 verbose cli /usr/local/bin/node /usr/local/bin/npm
+1 info using npm@10.9.2
+2 info using node@v22.15.1
+3 silly config load:file:/usr/local/lib/node_modules/npm/npmrc
+4 silly config load:file:/Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/.npmrc
+5 silly config load:file:/Users/abel/.npmrc
+6 silly config load:file:/usr/local/etc/npmrc
+7 verbose title npm run build
+8 verbose argv "run" "build"
+9 verbose logfile logs-max:10 dir:/Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/.npm-cache/_logs/2025-09-12T03_51_42_365Z-
+10 verbose logfile /Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer/.npm-cache/_logs/2025-09-12T03_51_42_365Z-debug-0.log
+11 silly logfile done cleaning log files
+12 verbose cwd /Users/abel/Desktop/Codename Stealth Project/Website Code/debtoptimizer
+13 verbose os Darwin 23.1.0
+14 verbose node v22.15.1
+15 verbose npm  v10.9.2
+16 verbose exit 1
+17 verbose code 1
