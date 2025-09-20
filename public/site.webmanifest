@@ -10,21 +10,21 @@
   "categories": ["finance", "productivity", "business"],
   "icons": [
     {
-      "src": "/favicon.svg",
-      "sizes": "any",
-      "type": "image/svg+xml",
+      "src": "/DOicon.png",
+      "sizes": "658x688",
+      "type": "image/png",
       "purpose": "any maskable"
     },
     {
-      "src": "/icon-192.svg",
+      "src": "/DOicon.png",
       "sizes": "192x192",
-      "type": "image/svg+xml",
+      "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "/apple-touch-icon.svg",
-      "sizes": "180x180",
-      "type": "image/svg+xml",
+      "src": "/DOicon.png",
+      "sizes": "512x512",
+      "type": "image/png",
       "purpose": "any"
     }
   ]
