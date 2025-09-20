@@ -26,9 +26,12 @@ export const metadata: Metadata = {
   // Favicon and icons
   icons: {
     icon: [
-      { url: "/DOicon.png", type: "image/png", sizes: "any" },
+      { url: "/DOicon.png?v=3", type: "image/png", sizes: "any" },
+      { url: "/DOicon.png?v=3", type: "image/png", sizes: "32x32" },
+      { url: "/DOicon.png?v=3", type: "image/png", sizes: "16x16" },
+      { url: "/favicon.ico?v=3", type: "image/x-icon", sizes: "16x16" },
     ],
-    apple: "/DOicon.png",
+    apple: "/DOicon.png?v=3",
   },
   
   // Web app manifest
@@ -40,16 +43,16 @@ export const metadata: Metadata = {
     description: "Save $1,200+ annually with intelligent debt management. Free analysis included.",
     url: "https://debt-optimizer-lyart.vercel.app",
     siteName: "DebtOptimizer",
+    locale: "en_US",
+    type: "website",
     images: [
       {
-        url: "/DOicon.png",
+        url: "/DOicon.png?v=3",
         width: 658,
         height: 688,
         alt: "DebtOptimizer - AI-Powered Debt Optimization",
       },
     ],
-    locale: "en_US",
-    type: "website",
   },
   
   // Twitter Card
@@ -57,7 +60,7 @@ export const metadata: Metadata = {
     card: "summary",
     title: "DebtOptimizer - AI-Powered Debt Optimization",
     description: "Save $1,200+ annually with intelligent debt management. Free analysis included.",
-    images: ["/DOicon.png"],
+    images: ["/DOicon.png?v=3"],
   },
   
   // Additional meta tags
