@@ -21,8 +21,55 @@ export const metadata: Metadata = {
   title: "Credit Card Debt Optimization | Save $1000+ Annually | DebtOptimizer",
   description:
     "AI-powered credit card debt optimization. Reduce interest payments, improve credit scores, and get personalized debt payoff strategies. Free analysis included.",
-  metadataBase: new URL("https://www.debtoptimizer.com"),
-  icons: { icon: "/favicon.ico" },
+  metadataBase: new URL("https://debt-optimizer-lyart.vercel.app"),
+  
+  // Favicon and icons
+  icons: {
+    icon: [
+      { url: "/favicon.svg", type: "image/svg+xml" },
+      { url: "/favicon.ico", sizes: "any" }
+    ],
+    apple: "/apple-touch-icon.png",
+  },
+  
+  // Web app manifest
+  manifest: "/site.webmanifest",
+  
+  // Open Graph for social media
+  openGraph: {
+    title: "DebtOptimizer - AI-Powered Debt Optimization",
+    description: "Save $1,200+ annually with intelligent debt management. Free analysis included.",
+    url: "https://debt-optimizer-lyart.vercel.app",
+    siteName: "DebtOptimizer",
+    images: [
+      {
+        url: "/icon-192.png",
+        width: 192,
+        height: 192,
+        alt: "DebtOptimizer - AI-Powered Debt Optimization",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
+  
+  // Twitter Card
+  twitter: {
+    card: "summary",
+    title: "DebtOptimizer - AI-Powered Debt Optimization",
+    description: "Save $1,200+ annually with intelligent debt management. Free analysis included.",
+    images: ["/icon-192.png"],
+  },
+  
+  // Additional meta tags
+  other: {
+    "theme-color": "#2563eb",
+    "color-scheme": "light",
+    "mobile-web-app-capable": "yes",
+    "apple-mobile-web-app-capable": "yes",
+    "apple-mobile-web-app-status-bar-style": "default",
+    "apple-mobile-web-app-title": "DebtOptimizer",
+  },
 };
 
 const structuredData = {
