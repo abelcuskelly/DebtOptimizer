@@ -29,7 +29,7 @@ export const metadata: Metadata = {
       { url: "/favicon.svg", type: "image/svg+xml" },
       { url: "/favicon.ico", sizes: "any" }
     ],
-    apple: "/apple-touch-icon.png",
+    apple: "/apple-touch-icon.svg",
   },
   
   // Web app manifest
@@ -43,7 +43,7 @@ export const metadata: Metadata = {
     siteName: "DebtOptimizer",
     images: [
       {
-        url: "/icon-192.png",
+        url: "/icon-192.svg",
         width: 192,
         height: 192,
         alt: "DebtOptimizer - AI-Powered Debt Optimization",
@@ -58,7 +58,7 @@ export const metadata: Metadata = {
     card: "summary",
     title: "DebtOptimizer - AI-Powered Debt Optimization",
     description: "Save $1,200+ annually with intelligent debt management. Free analysis included.",
-    images: ["/icon-192.png"],
+    images: ["/icon-192.svg"],
   },
   
   // Additional meta tags
