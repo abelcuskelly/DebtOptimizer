@@ -26,10 +26,10 @@ export const metadata: Metadata = {
   // Favicon and icons
   icons: {
     icon: [
-      { url: "/favicon.svg", type: "image/svg+xml", sizes: "any" },
-      { url: "/favicon-16.png", type: "image/png", sizes: "16x16" },
+      { url: "/favicon.svg?v=2", type: "image/svg+xml", sizes: "any" },
+      { url: "/favicon-16.png?v=2", type: "image/png", sizes: "16x16" },
     ],
-    apple: "/apple-touch-icon.svg",
+    apple: "/apple-touch-icon.svg?v=2",
   },
   
   // Web app manifest
