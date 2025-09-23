@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { Button } from "@/components/ui/Button";
 import { formatCurrency, clamp } from "@/lib/utils";
+import { SignupModal } from "@/components/forms/SignupModal";
 
 export interface DebtInputData {
   creditCardBalance: number;
@@ -12,7 +13,7 @@ export interface DebtInputData {
 }
 
 interface DebtCalculatorProps {
-  onComplete: (data: DebtInputData) => void;
+  onComplete?: (data: DebtInputData) => void;
 }
 
 export function DebtCalculator({ onComplete }: DebtCalculatorProps) {
@@ -22,6 +23,7 @@ export function DebtCalculator({ onComplete }: DebtCalculatorProps) {
     minimumPayment: 125,
     availableMonthlyPayment: 300,
   });
+  const [isModalOpen, setIsModalOpen] = useState(false);
 
   const monthlyRate = data.currentAPR / 100 / 12;
   const currentInterestMonthly = data.creditCardBalance * monthlyRate;
@@ -66,7 +68,15 @@ export function DebtCalculator({ onComplete }: DebtCalculatorProps) {
         </div>
       </div>
       <div className="text-sm">Estimated savings/month: <span className="font-semibold text-success-green">{formatCurrency(estimatedSavingsMonthly)}</span></div>
-      <Button onClick={() => onComplete(data)}>Get My Full Analysis</Button>
+      <Button
+        onClick={() => {
+          onComplete?.(data);
+          setIsModalOpen(true);
+        }}
+      >
+        Get My Full Analysis
+      </Button>
+      <SignupModal isOpen={isModalOpen} onClose={() => setIsModalOpen(false)} />
     </div>
   );
 } 
